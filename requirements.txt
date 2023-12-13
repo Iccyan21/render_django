@@ -1,0 +1,15 @@
+django-cors-headers
+django-cors-headers
+moviepy
+djangorestframework
+django-filter
+gunicorn
+mysqlclient
+asgiref
+dj-database-url
+django-environ
+Django
+gunicorn
+psycopg2-binary
+sqlparse
+tzdata
