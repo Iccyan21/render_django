@@ -30,7 +30,7 @@ environ.Env.read_env()
 SECRET_KEY = "django-insecure-#rpxqcell6)nl@sgmpuz3-4hyah$xa&7qo+&&%h#+@f95ia7p9"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -139,6 +139,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',  # Reactアプリのオリジン
+    
 ]
 
 
