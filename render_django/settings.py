@@ -138,7 +138,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOWED_ORIGINS = [
-    'https://react-ehlz.onrender.com',  # Reactアプリのオリジン
+    'https://react-jbl4.onrender.com',  # Reactアプリのオリジン
     # フロントが必須
 ]
 
