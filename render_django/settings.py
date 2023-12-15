@@ -32,7 +32,7 @@ SECRET_KEY = "django-insecure-#rpxqcell6)nl@sgmpuz3-4hyah$xa&7qo+&&%h#+@f95ia7p9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['fuck-render-react.onrender.com']
+ALLOWED_HOSTS = ['fuck-render-django.onrender.com']
 
 
 # Application definition
@@ -134,6 +134,10 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+CORS_ALLOWED_ORIGINS = [
+    'https://fuck-render-react.onrender.com'
+]
 
 # imageやmovieの保存先
 MEDIA_URL = '/media/'
